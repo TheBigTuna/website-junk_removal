@@ -1,41 +1,22 @@
 <?php
 
 // Website Name
-$Website_name = "Example Concrete";
+$Website_name = "Warren Junk Removal";
 
+$_SESSION['Description'] = "If you need a contractor for junk removal services near Warren, MI, call us!";
 
 // This page hold any information needed for the current page
 if(strpos($_SERVER['REQUEST_URI'],"/") > -1 || strpos($_SERVER['REQUEST_URI'],"index.php") > -1){
     $_SESSION['current_page'] = $Website_name . " | Concrete Services";
-    $_SESSION['Description'] = "If you need a contractor for concrete services near Detroit, MI, call us!";
 }
-if(strpos($_SERVER['REQUEST_URI'],"concrete-driveway")){
-    $_SESSION['current_page'] = $Website_name . " | Concrete Driveway Services";
-    $_SESSION['Description'] = "If you need a contractor for a your concrete driveway services near Detroit, MI, call us!";
+if(strpos($_SERVER['REQUEST_URI'],"concrete-residental")){
+    $_SESSION['current_page'] = $Website_name . " | Residental Junk Removal Services";
 }
 if(strpos($_SERVER['REQUEST_URI'],"concrete-commercial")){
-    $_SESSION['current_page'] = $Website_name . " | Concrete Commercial Services";
-    $_SESSION['Description'] = "If you need a contractor for commercial concrete project services near Detroit, MI, call us!";
-}
-if(strpos($_SERVER['REQUEST_URI'],"concrete-foundation")){
-    $_SESSION['current_page'] = $Website_name . " | Concrete Foundation Services";
-    $_SESSION['Description'] = "If you need a contractor for concrete foundation services near Detroit, MI, call us!";
-}
-if(strpos($_SERVER['REQUEST_URI'],"sidewalks")){
-    $_SESSION['current_page'] = $Website_name . " | Concrete Sidewalk Services";
-    $_SESSION['Description'] = "If you need a contractor for concrete sidewalk services near Detroit, MI, call us!";
-}
-if(strpos($_SERVER['REQUEST_URI'],"faq")){
-    $_SESSION['current_page'] = $Website_name . " | Concrete FAQ";
-    $_SESSION['Description'] = "If you need a contractor for concrete services near Detroit, MI, call us!";
-}
-if(strpos($_SERVER['REQUEST_URI'],"faq")){
-    $_SESSION['current_page'] = $Website_name . " | Concrete FAQ";
-    $_SESSION['Description'] = "If you need a contractor for concrete services near Detroit, MI, call us!";
+    $_SESSION['current_page'] = $Website_name . " | Commercial Junk Removal Services";
 }
 if(strpos($_SERVER['REQUEST_URI'],"contact-us")){
     $_SESSION['current_page'] = $Website_name . " | Contact";
-    $_SESSION['Description'] = "If you need a contractor for concrete services near Detroit, MI, call us!";
 }
 // Depending on the page apply the appropiate title
 
