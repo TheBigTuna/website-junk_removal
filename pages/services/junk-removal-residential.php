@@ -35,7 +35,7 @@
             </div>
             <div class="row">
                 <div class="col-12 col-xl-8">
-                    <h3 class="servicesSubTitles">Junk Removal You Can Count On</h3>
+                    <h3 class="servicesSubTitles">Residental Junk Removal You Can Count On</h3>
                         <p class="servicesTexts">
                             At Warren Junk Removal, we make junk removal simple, safe, and stress-free. 
                             As a locally owned company, we’re proud to offer no-contact residential junk removal across, Metro Detroit.
