@@ -44,13 +44,21 @@ include("php/page-info.php");
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 d-block d-lg-none">
 									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Residental</a>
 									<div class="dropdown-menu">
-										<a class="dropdown-item" href="/pages/services/junk-removal-residential.php">Residential</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-residential.php">Residental Summary</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-trash.php">Trash Removal</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-appliance.php">Appliance Removal</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-cleanout.php">Cleanout Services</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-estate.php">Estate</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-storage.php">Storage</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-demolition.php">Demolition</a>
 									</div>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 d-block d-lg-none">
 									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Commercial</a>
 									<div class="dropdown-menu">
-										<a class="dropdown-item" href="/pages/services/junk-removal-commercial.php">Commercial</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-commercial.php">Commercial Summary</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-business-cleanout.php">Cleanout Services</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-construction.php">Construction</a>
 									</div>
 								</li>
 								<li class="nav-item dropdown pl-4 pl-md-0 ml-0 ml-md-4 d-none d-lg-block">
@@ -60,13 +68,17 @@ include("php/page-info.php");
 										<a class="dropdown-item" href="/pages/services/junk-removal-trash.php">Trash Removal</a>
 										<a class="dropdown-item" href="/pages/services/junk-removal-appliance.php">Appliance Removal</a>
 										<a class="dropdown-item" href="/pages/services/junk-removal-cleanout.php">Cleanout Services</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-estate.php">Estate</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-storage.php">Storage</a>
 										<a class="dropdown-item" href="/pages/services/junk-removal-demolition.php">Demolition</a>
 									</div>
 								</li>
 								<li class="nav-item dropdown pl-4 pl-md-0 ml-0 ml-md-4 d-none d-lg-block">
 									<a class="nav-link dropdown-toggle">Commercial</a>
 									<div class="dropdown-menu">
-										<a class="dropdown-item" href="/pages/services/junk-removal-commercial.php">Commercial</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-commercial.php">Commercial Summary</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-business-cleanout.php">Cleanout Services</a>
+										<a class="dropdown-item" href="/pages/services/junk-removal-construction.php">Construction</a>
 									</div>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">

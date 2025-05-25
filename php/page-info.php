@@ -7,13 +7,40 @@ $_SESSION['Description'] = "If you need a contractor for junk removal services n
 
 // This page hold any information needed for the current page
 if(strpos($_SERVER['REQUEST_URI'],"/") > -1 || strpos($_SERVER['REQUEST_URI'],"index.php") > -1){
-    $_SESSION['current_page'] = $Website_name . " | Concrete Services";
+    $_SESSION['current_page'] = $Website_name . " | Junk Removal Services";
 }
-if(strpos($_SERVER['REQUEST_URI'],"concrete-residental")){
+if(strpos($_SERVER['REQUEST_URI'],"junk-removal-residental")){
     $_SESSION['current_page'] = $Website_name . " | Residental Junk Removal Services";
 }
-if(strpos($_SERVER['REQUEST_URI'],"concrete-commercial")){
+if(strpos($_SERVER['REQUEST_URI'],"junk-removal-commercial")){
     $_SESSION['current_page'] = $Website_name . " | Commercial Junk Removal Services";
+}
+if(strpos($_SERVER['REQUEST_URI'],"junk-removal-applicance")){
+    $_SESSION['current_page'] = $Website_name . " | Appliance Removal Services";
+}
+if(strpos($_SERVER['REQUEST_URI'],"junk-removal-business-cleanout")){
+    $_SESSION['current_page'] = $Website_name . " | Business Cleanout Services";
+}
+if(strpos($_SERVER['REQUEST_URI'],"cleanout-commercial")){
+    $_SESSION['current_page'] = $Website_name . " | Cleanout Services";
+}
+if(strpos($_SERVER['REQUEST_URI'],"junk-removal-construction")){
+    $_SESSION['current_page'] = $Website_name . " | Construction Junk Removal Services";
+}
+if(strpos($_SERVER['REQUEST_URI'],"junk-removal-demolition")){
+    $_SESSION['current_page'] = $Website_name . " | Demolition Services";
+}
+if(strpos($_SERVER['REQUEST_URI'],"junk-removal-estate")){
+    $_SESSION['current_page'] = $Website_name . " | Estate Cleanout Services";
+}
+if(strpos($_SERVER['REQUEST_URI'],"junk-removal-demolition")){
+    $_SESSION['current_page'] = $Website_name . " | Demolition Services";
+}
+if(strpos($_SERVER['REQUEST_URI'],"junk-removal-storage")){
+    $_SESSION['current_page'] = $Website_name . " | Storage Junk Removal Services";
+}
+if(strpos($_SERVER['REQUEST_URI'],"junk-removal-trash")){
+    $_SESSION['current_page'] = $Website_name . " | Trash Removal Services";
 }
 if(strpos($_SERVER['REQUEST_URI'],"contact-us")){
     $_SESSION['current_page'] = $Website_name . " | Contact";

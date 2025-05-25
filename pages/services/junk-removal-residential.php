@@ -51,21 +51,21 @@
                 <div class="col-0 col-xl-4"></div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="card mt-5 mb-lg-0">
                         <div class="card-body">
                             <img src="../../images/junk-removal-img-3.jpeg" width="100%;"/>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="card mt-5 mb-lg-0">
                         <div class="card-body">
                             <img src="../../images/junk-removal-img-6.jpg" width="100%;"/>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <!-- <div class="card mt-5 mb-lg-0">
                         <div class="card-body">
                             <img src="../../images/junk-removal-img-7.png" width="100%;"/>

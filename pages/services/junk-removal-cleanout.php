@@ -65,6 +65,19 @@
                     <p class="servicesTexts">
                         From old lawn furniture and brush piles to playsets, sheds, and scattered debris, we’ll haul away just about anything cluttering up your yard.
                     </p>
+                    <h5 class="font-weight-bold">Estate Cleanouts</h5>
+                    <p class="servicesTexts">
+                        Sorting through a loved one’s belongings after they’ve passed is never easy. 
+                        At Warren Junk Removal, we understand how emotional and overwhelming estate cleanouts and we’re here to help make the process as smooth and stress-free as possible.
+                        <br>
+                        <a href="junk-removal-estate.php">Click here for Information about Estate Cleanouts</a>
+                    </p>
+                    <h5 class="font-weight-bold">Storage Cleanouts</h5>
+                    <p class="servicesTexts">
+                        Fast, Affordable, and Hassle Free  Storage Unit Cleanouts by Warren Junk Removal
+                        <br>
+                        <a href="junk-removal-storage.php">Click here for Information about Storage Cleanouts</a>
+                    </p>
                 </div>
                 <div class="col-0 col-xl-4"></div>
             </div>
